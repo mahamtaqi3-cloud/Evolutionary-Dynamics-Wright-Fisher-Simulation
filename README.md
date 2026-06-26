@@ -24,7 +24,7 @@ The simulation models the following evolutionary dynamics:
 
 1. **Clone the repository:**
 ```bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
+git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git](https://github.com/mahamtaqi3-cloud/Evolutionary-Dynamics-Wright-Fisher-Simulation.git
 
 ```
 
