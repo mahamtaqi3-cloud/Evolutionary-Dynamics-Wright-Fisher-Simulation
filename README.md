@@ -1,34 +1,17 @@
 # Evolutionary Dynamics: Wright-Fisher Simulation
 
-This project provides an interactive simulation of population genetics using the **Wright-Fisher model**. It allows users to observe how three fundamental evolutionary forces—**Genetic Drift**, **Natural Selection**, and **Mutation**—shape allele frequencies over time.
+This project provides an interactive simulation of population genetics using the Wright-Fisher model. It allows users to observe how three fundamental evolutionary forces—Genetic Drift, Natural Selection, and Mutation—shape allele frequencies over time.
 
-## Overview
+### How to View & Run This Project
+This project uses `ipywidgets` for an interactive simulation experience. Because GitHub's static renderer does not support these interactive sliders, you may see an "Invalid Notebook" error when viewing the file directly on this page. 
 
-Built in **Python** and hosted on **Google Colab**, this tool bridges the gap between static biological data (like phylogenetic trees) and dynamic evolutionary modeling. By adjusting parameters via an interactive interface, users can simulate population behavior and visualize the "mutation-selection-drift balance."
+To view and interact with the full simulation, please use the following method:
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mahamtaqi3-cloud/Evolutionary-Dynamics-Wright-Fisher-Simulation/blob/main/Evolutionary_Dynamics_Wright_Fisher_Simulation.ipynb)
+
+*Once the Colab page opens, go to the **Runtime** menu and click **"Run all"** to activate the interactive sliders.*
 
 ## Core Concepts
-
-The simulation models the following evolutionary dynamics:
-
-* **Genetic Drift:** Stochastic fluctuations in allele frequency due to random sampling, which is especially impactful in small populations.
-* **Natural Selection:** The directional trend caused by differential fitness, where favorable alleles increase in frequency over time.
+* **Genetic Drift:** Stochastic fluctuations in allele frequency due to random sampling.
+* **Natural Selection:** The directional trend caused by differential fitness.
 * **Mutation:** The introduction of new genetic variation, which prevents the permanent fixation or loss of alleles.
-
-## Features
-
-* **Interactive Controls:** Use sliders to adjust population size ($N$), fitness coefficients, mutation rates, and the number of simulation replicates.
-* **Dynamic Visualization:** Real-time plotting of allele frequencies, allowing for the observation of stochastic "wiggles" (drift) and directional selection trends.
-* **Reproducibility:** Designed for scientific transparency, allowing users to toggle parameters to explore mutation-selection balance.
-
-## Installation & Usage
-
-1. **Clone the repository:**
-```bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git](https://github.com/mahamtaqi3-cloud/Evolutionary-Dynamics-Wright-Fisher-Simulation.git
-
-```
-
-
-2. **Run:** Open `notebooks/simulation.ipynb` in Google Colab.
-3. **Dependencies:** Ensure `numpy`, `matplotlib`, and `ipywidgets` are installed in your environment.
-
