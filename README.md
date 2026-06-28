@@ -1,17 +1,26 @@
 # Evolutionary Dynamics: Wright-Fisher Simulation
 
-This project provides an interactive simulation of population genetics using the Wright-Fisher model. It allows users to observe how three fundamental evolutionary forces—Genetic Drift, Natural Selection, and Mutation—shape allele frequencies over time.
+The Wright-Fisher model is the mathematical bedrock for understanding genetic evolution. This simulation allows users to explore the interplay between:
 
-### How to View & Run This Project
-This project uses `ipywidgets` for an interactive simulation experience. Because GitHub's static renderer does not support these interactive sliders, you may see an "Invalid Notebook" error when viewing the file directly on this page. 
+* **Genetic Drift:** Visualizing how random sampling error leads to allele fixation or extinction in finite populations.
+* **Natural Selection:** Modeling the impact of fitness advantages/disadvantages on the trajectory of specific alleles.
+* **Evolutionary Dynamics:** Demonstrating how initial population states and selection pressures dictate the long-term genomic landscape.
 
-To view and interact with the full simulation, please use the following method:
+## Key Features
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/mahamtaqi3-cloud/Evolutionary-Dynamics-Wright-Fisher-Simulation/blob/main/Evolutionary_Dynamics_Wright_Fisher_Simulation.ipynb)
+* **Customizable Parameters:** Easily adjust population size ($N$), selection coefficients ($s$), and initial allele frequencies.
+* **Visual Analysis:** Generates plots that track allele frequency trajectories over time, making it easy to observe the speed of fixation or the influence of drift.
+* **Educational Foundation:** Ideal for students and researchers looking to bridge the gap between abstract population genetics theory and computational simulation.
 
-*Once the Colab page opens, go to the **Runtime** menu and click **"Run all"** to activate the interactive sliders.*
+## Getting Started
 
-## Core Concepts
-* **Genetic Drift:** Stochastic fluctuations in allele frequency due to random sampling.
-* **Natural Selection:** The directional trend caused by differential fitness.
-* **Mutation:** The introduction of new genetic variation, which prevents the permanent fixation or loss of alleles.
+You can run this simulation directly in your browser without installing local software:
+
+1. Click the **[Open in Colab](https://www.google.com/search?q=https://colab.research.google.com/github/mahamtaqi3-cloud/Evolutionary-Dynamics-Wright-Fisher-Simulation/blob/main/Evolutionary_Dynamics_Wright_Fisher_Simulation.ipynb)** link.
+2. Once in Colab, go to **Runtime > Run all** to execute the simulation.
+3. Modify the parameters in the configuration cells to experiment with different evolutionary scenarios.
+
+## Research Context
+
+Understanding these dynamics is essential for genomic studies. By modeling the "neutral" expectations of drift, researchers can better differentiate between random genomic noise and the functional variants—such as those driving behavioral phenotypes—that are maintained by evolutionary pressure.
+
