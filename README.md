@@ -16,7 +16,7 @@ The Wright-Fisher model is the mathematical bedrock for understanding genetic ev
 
 You can run this simulation directly in your browser without installing local software:
 
-1. Click the **[Open in Colab](https://www.google.com/search?q=https://colab.research.google.com/github/mahamtaqi3-cloud/Evolutionary-Dynamics-Wright-Fisher-Simulation/blob/main/Evolutionary_Dynamics_Wright_Fisher_Simulation.ipynb)** link.
+1. Click the **[Open in Colab](https://www.google.com/search?q=https://colab.research.google.com/github/mahamtaqi3-cloud/Evolutionary-Dynamics-Wright-Fisher-Simulation/blob/main/Evolutionary_Dynamics_Wright_Fisher_Simulation.ipynb](https://colab.research.google.com/drive/1g6suHh9Or81MpBxVkF9NaaG9R9gTAmqK)** link.
 2. Once in Colab, go to **Runtime > Run all** to execute the simulation.
 3. Modify the parameters in the configuration cells to experiment with different evolutionary scenarios.
 
